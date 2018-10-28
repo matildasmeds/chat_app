@@ -34,14 +34,16 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
-# Use PostgreSQL as database for ActiveRecord
-gem 'pg'
-
-# Use Redis Pub/Sub for ActionCable
-gem 'redis'
-
+# JavaScript dependencies
 gem 'jquery-rails'
 gem 'momentjs-rails'
+
+group :production do
+  # Use PostgreSQL as database for ActiveRecord
+  gem 'pg'
+  # Use Redis Pub/Sub for ActionCable
+  gem 'redis'
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

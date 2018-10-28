@@ -37,6 +37,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # Use PostgreSQL as database for ActiveRecord
 gem 'pg'
 
+# Use Redis Pub/Sub for ActionCable
+gem 'redis'
+
 gem 'jquery-rails'
 gem 'momentjs-rails'
 

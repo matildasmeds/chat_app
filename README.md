@@ -16,3 +16,4 @@ Ruby 2.5.1
 - Clear text field after submit
 - Show server status to user: connected | disconnected | rejected
 - Responsive layout (with @media tag for instance)
+- Scrub user input

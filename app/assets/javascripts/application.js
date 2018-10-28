@@ -14,6 +14,6 @@
 //= require activestorage
 //= require turbolinks
 //= require jquery
-//= require moment/moment
+//= require moment
 //= require_tree .
 

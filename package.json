@@ -1,8 +1,5 @@
 {
   "name": "chat_app",
   "private": true,
-  "dependencies": {
-    "jquery-ujs": "^1.2.2",
-    "moment": "^2.22.2"
-  }
+  "dependencies": {}
 }

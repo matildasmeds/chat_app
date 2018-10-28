@@ -1,0 +1,20 @@
+<style scoped>
+   body { background-color:#C6C9E7; }
+   #header { height:9em; display:block; position:absolute; top:0; left:0; padding:1em; }
+   #chat { background-color:#FFF; width:100%; top:9em; bottom:0; position:fixed; overflow-y:scroll; overflow-x:hidden; padding:0; left:0; }
+   #chat .line { padding:1em 1em 0 1em; }
+   #chat .time { left:0; margin-right: 1em; display:inline-block; }
+   #chat .message { right:0; display:inline-block; }
+</style>
+
+<div id='header'>
+  <h1>Chat 💬</h1>
+  <%= form_tag('/chat_messages',
+               id: 'send_message', method: 'post', 'data-remote' => true) do %>
+    <%= label_tag(:message, 'Say something:') %>
+    <%= text_field_tag(:message) %>
+    <%= submit_tag('Send') %>
+  <% end %>
+</div>
+
+<div id='chat'></div>

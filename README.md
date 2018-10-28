@@ -15,3 +15,4 @@ Ruby 2.5.1
 - Don't submit if text field is empty
 - Clear text field after submit
 - Show server status to user: connected | disconnected | rejected
+- Responsive layout (with @media tag for instance)

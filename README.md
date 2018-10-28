@@ -2,7 +2,7 @@
 
 Minimal Chat App, for fun and practice.
 
-Uses ActionCable to create a channel, whose contents are broadcasted to all clients.
+Uses ActionCable to create a channel, broadcasts messages to all clients.
 
 Rails 5.2.1
 Ruby 2.5.1
@@ -14,3 +14,4 @@ Ruby 2.5.1
 - Several chats
 - Don't submit if text field is empty
 - Clear text field after submit
+- Show server status to user: connected | disconnected | rejected
